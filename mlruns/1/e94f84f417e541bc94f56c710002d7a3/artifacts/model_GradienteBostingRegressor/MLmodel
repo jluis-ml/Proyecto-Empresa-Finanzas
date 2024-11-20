@@ -1,0 +1,20 @@
+artifact_path: model_GradienteBostingRegressor
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 136392
+model_uuid: 81cadcd9a68a47429789159bda05012e
+run_id: e94f84f417e541bc94f56c710002d7a3
+utc_time_created: '2024-11-20 20:40:59.601967'

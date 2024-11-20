@@ -1,0 +1,20 @@
+artifact_path: model_Supor Vector Machine
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 50258
+model_uuid: 198703f57fe443248a4471783b2cda45
+run_id: 2027bc3e6eda473ea94c7bc754ac7168
+utc_time_created: '2024-11-20 20:54:40.769159'

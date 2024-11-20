@@ -1,0 +1,20 @@
+artifact_path: model_GradientBostingRegressorCV
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 1732484
+model_uuid: 12ae055f3f9f43b6887a60a59185fceb
+run_id: 3bdead021ab044649b34de004e813e56
+utc_time_created: '2024-11-20 21:28:44.699742'
