@@ -107,6 +107,3 @@ st.sidebar.write("""
 Este proyecto utiliza ExtraTreesRegressor para predecir ventas.
 Incluye análisis gráfico, métricas y herramientas interactivas para usuarios.
 """)
-
-
-
